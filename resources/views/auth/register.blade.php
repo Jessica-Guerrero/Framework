@@ -46,7 +46,7 @@ rounded-lg shadow-lg">
     name="password_confirmation">
 
     <button type="submit" class="rounded-md bg-indigo-500 w-full text-lg
-    text-white font-semibold p-2 my-3 hover:bg-indigo-600">Send</button>
+    text-white font-semibold p-2 my-3 hover:bg-indigo-600  bg-info">Send</button>
 
 
   </form>

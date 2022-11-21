@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>@yield('title') - Laravel App</title>
+    <title>Laravel App Story</title>
     
     <!-- Tailwind CSS Link -->
     <link rel="stylesheet" 
@@ -14,13 +14,13 @@
 
     <nav class="flex py-5 bg-indigo-500 text-white">
       <div class="w-1/2 px-12 mr-auto">
-        <p class="text-2xl font-bold">My Application</p>
+        <p class="text-2xl font-bold">Inventory</p>
       </div>
 
       <ul class="w-1/2 px-16 ml-auto flex justify-end pt-1">
       @if(auth()->check())
         <li class="mx-8">
-          <p class="text-xl">Welcome <b>{{ auth()->user()->name }}</b></p>
+          <p class="text-xl">Welcome to inventory <b>{{ auth()->user()->name }}</b></p>
         </li>
         <li>
           <a href="{{ route('login.destroy') }}" class="font-bold
